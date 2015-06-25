@@ -30,11 +30,3 @@ var attr = DS.attr;
           zip_code: '11223'
       }
   };
-
-  it(" create a contact", function(done) {  
-      var options = {
-          method: "POST",
-          url: "/api/contacts",
-          payload: JSON.stringify(localContact)
-      };
-  });
